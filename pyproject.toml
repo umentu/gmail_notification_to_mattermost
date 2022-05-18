@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "gmail_notification_to_mattermost"
+version = "0.1.0"
+description = ""
+authors = ["umentu"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+google-api-core = "^2.7.3"
+google-api-python-client = "^2.47.0"
+google-auth = "^2.6.6"
+google-auth-httplib2 = "^0.1.0"
+google-auth-oauthlib = "^0.5.1"
+timeutil = "^2.1.0"
+dateutils = "^0.6.12"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+ipython = "^8.3.0"
+
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
